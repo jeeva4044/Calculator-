@@ -1,0 +1,110 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+body{
+    align-items: center;
+    background: linear-gradient(320deg,rgb(43, 41, 41),rgb(33, 33, 74));
+    display: flex;
+    font-family: 'Times New Roman', Times;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+   
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+     background: whitesmoke;
+    border: 1px solid rgb(102, 102, 104);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(35, 35, 35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+     background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgb(255, 255, 255,0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+  
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+     background: white;
+    border: 1px solid rgb(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgb(35, 32, 32);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+.calc-btn-row{
+    display: flex;
+    justify-content: space-between ;
+    margin: 5% 0;
+}
+
+.calc-btn{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: white;
+    border: 1px solid rgb(49, 47, 47);
+    border-radius: 16px;
+    box-shadow: 0  4px 30px rgb(117, 115, 115);
+    color: rgb(0, 0, 0);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+
+}
+
+.calc-btn:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: whitesmoke;
+    border: 1px solid rgb(118, 109, 109);
+    border-radius: 16px;
+    box-shadow: 0  4px 30px rgb(117, 115, 115);
+    color: rgb(250, 250, 250);
+    background:  rgb(19, 13, 47) ;
+}
+
+.calc-btn:last-child:hover{
+     background: rgb(187, 20, 181);
+}
+
+.calc-btn:hover{
+    background: rgb(47, 95, 47);
+}
+
+
+.calc-btn:active{
+    background-color: rgb(4, 67, 12);
+
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.triple{
+    flex-basis: 73%;
+}
+
+         /* -------EnD....... */
